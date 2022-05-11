@@ -8,8 +8,7 @@ export const hashPassword = async (person) => {
     return;
   }
 
-  const hashedPassword = await bcrypt.hash(person.password, Number(saltRounds));
-  person.password = hashedPassword;
+  person.password = await bcrypt.hash(person.password, Number(saltRounds));
 }
 
 export const compare = (value, hash) => {
