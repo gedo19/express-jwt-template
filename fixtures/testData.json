@@ -1,0 +1,12 @@
+{
+  "users": {
+    "existing": {
+      "email": "randommail@email.com",
+      "password": "Pa$$w0rD"
+    },
+    "new": {
+      "email": "pro100@email.com",
+      "password": "Unre@lP@$$w0rD"
+    }
+  }
+}
